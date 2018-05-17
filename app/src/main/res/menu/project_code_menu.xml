@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group app:showAsAction="always">
+        <item android:id="@+id/code_save"
+            app:showAsAction="always"
+            android:title="@string/code_save"
+            android:icon="@drawable/menu_save" />
+        <item android:id="@+id/code_compile"
+            app:showAsAction="always"
+            android:title="@string/code_compile"
+            android:icon="@drawable/menu_compile"/>
+        <item android:id="@+id/code_upload"
+            app:showAsAction="always"
+            android:title="@string/code_upload"
+            android:icon="@drawable/menu_upload"/>
+    </group>
+</menu>

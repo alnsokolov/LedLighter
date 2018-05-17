@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:enabled="false">
+        <item android:title="@string/nav_elements_title"/>
+    </group>
+    <group android:id="@+id/nav_widgets_group"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_elements_button"
+            android:icon="@drawable/logo_button"
+            android:title="@string/nav_elements_button"
+            android:checkable="false" />
+        <item android:id="@+id/nav_elements_slider"
+            android:icon="@drawable/logo_slider"
+            android:title="@string/nav_elements_slider"
+            android:checkable="false" />
+        <item android:id="@+id/nav_elements_circle"
+            android:icon="@drawable/logo_circle"
+            android:title="@string/nav_elements_circle"
+            android:checkable="false" />
+        <item android:id="@+id/nav_elements_joystick"
+            android:icon="@drawable/logo_joystick"
+            android:title="@string/nav_elements_joystick"
+            android:checkable="false" />
+        <item android:id="@+id/nav_elements_terminal"
+            android:icon="@drawable/logo_terminal"
+            android:title="@string/nav_elements_terminal"
+            android:checkable="false" />
+        <item android:id="@+id/nav_elements_grid"
+            android:icon="@drawable/logo_grid"
+            android:title="@string/nav_elements_grid"
+            android:checkable="false" />
+    </group>
+</menu>

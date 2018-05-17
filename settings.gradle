@@ -1,0 +1,1 @@
+include ':app', ':blurry_v2', ':compatwidgets', ':highlighter'

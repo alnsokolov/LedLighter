@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">LedLighter</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_new_project">NewProjectActivity</string>
+
+    <string name="stub_new_name">Name</string>
+    <string name="stub_new_mode">Mode</string>
+    <string name="stub_new_normal">NORMAL</string>
+    <string name="stub_new_advanced">ADVANCED</string>
+    <string name="stub_new_theme">Theme</string>
+    <string name="stub_new_dark">DARK</string>
+    <string name="stub_new_light">LIGHT</string>
+    <string name="stub_new_create">CREATE</string>
+
+    <string name="stub_cancel">CANCEL</string>
+    <string name="stub_connect_scan">SCAN</string>
+    <string name="stub_connect_paired_devices">Paired devices</string>
+    <string name="stub_scan_devices">Found devices</string>
+
+    <string name="menu_title_add">Add new project</string>
+    <string name="menu_title_help">View help</string>
+    <string name="menu_title_connect">Connect to LED strip module</string>
+    <string name="nav_elements_button">Button</string>
+    <string name="nav_elements_slider">Slider</string>
+    <string name="nav_elements_circle">Circle slider</string>
+    <string name="nav_elements_joystick">Joystick</string>
+    <string name="nav_elements_terminal">Terminal</string>
+    <string name="nav_elements_grid">Grid</string>
+    <string name="nav_elements_title">Widgets</string>
+
+    <string name="nav_mode_title">Mode</string>
+    <string name="nav_mode_code">Code</string>
+    <string name="nav_mode_scheme">Scheme</string>
+
+    <string name="scheme_add_widget">Add widget</string>
+    <string name="scheme_settings">Settings</string>
+    <string name="scheme_run">Run project</string>
+    <string name="scheme_stop">Stop running project</string>
+
+    <string name="code_save">Save</string>
+    <string name="code_upload">Upload to device</string>
+    <string name="code_compile">Compile</string>
+</resources>

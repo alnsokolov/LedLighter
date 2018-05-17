@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleSlider">
+        <attr name="value"              format="integer" />
+        <attr name="max_value"          format="integer" />
+        <attr name="min_value"          format="integer" />
+        <attr name="enabled"            format="boolean" />
+        <attr name="color"              format="color"   />
+    </declare-styleable>
+    
+    <declare-styleable name="CompatButton">
+        <attr name="button_toggle"      format="boolean" />
+        <attr name="button_color"       format="color"   />
+        <attr name="button_enabled"     format="boolean" />
+        <attr name="text_color"         format="color"   />
+    </declare-styleable>
+
+    <declare-styleable name="CompatGrid">
+        <attr name="rows"               format="integer" />
+        <attr name="cols"               format="integer" />
+        <attr name="grid_toggle"        format="boolean" />
+        <attr name="grid_color"         format="color"   />
+        <attr name="grid_border_width"  format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="Slider">
+        <attr name="orientation"        format="enum">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="0"/>
+        </attr>
+        <attr name="slider_color"       format="color"/>
+        <attr name="slider_enabled"     format="boolean"/>
+        <attr name="slider_background"  format="color"/>
+        <attr name="slider_value"       format="integer"/>
+        <attr name="slider_max_value"   format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="Joystick">
+        <attr name="joystick_color"     format="color"/>
+        <attr name="joystick_outer_color"        format="color"/>
+        <attr name="joystick_enabled"   format="boolean"/>
+        <attr name="joystick_sticky"    format="boolean"/>
+        <attr name="min_joystick_value" format="integer"/>
+        <attr name="max_joystick_value" format="integer"/>
+    </declare-styleable>
+</resources>

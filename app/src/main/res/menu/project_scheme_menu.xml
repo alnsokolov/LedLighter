@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group app:showAsAction="always">
+        <item android:id="@+id/scheme_add"
+            app:showAsAction="always"
+            android:title="@string/scheme_add_widget"
+            android:icon="@drawable/menu_plus" />
+        <item android:id="@+id/scheme_settings"
+            app:showAsAction="always"
+            android:title="@string/scheme_settings"
+            android:icon="@drawable/menu_cog"/>
+        <item android:id="@+id/scheme_play"
+            app:showAsAction="always"
+            android:title="@string/scheme_run"
+            android:icon="@drawable/menu_play"/>
+    </group>
+</menu>

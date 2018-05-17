@@ -1,0 +1,18 @@
+<resources>
+    <string name="stub_new_name">Имя</string>
+    <string name="stub_new_mode">Режим</string>
+    <string name="stub_new_normal">ОБЫЧНЫЙ</string>
+    <string name="stub_new_advanced">ПРОДВИНУТЫЙ</string>
+    <string name="stub_new_theme">Тема</string>
+    <string name="stub_new_dark">ТЁМНАЯ</string>
+    <string name="stub_new_light">СВЕТЛАЯ</string>
+    <string name="stub_new_create">СОЗДАТЬ</string>
+
+    <string name="stub_cancel">ОТМЕНА</string>
+    <string name="stub_connect_scan">СКАНИРОВАТЬ</string>
+    <string name="stub_connect_paired_devices">Сопряжённые устройства</string>
+    <string name="stub_scan_devices">Найденные устройства</string>
+    <string name="menu_title_add">Добавить новый проект</string>
+    <string name="menu_title_help">Посмотреть помощь</string>
+    <string name="menu_title_connect">Подключиться к модулю ленты</string>
+</resources>

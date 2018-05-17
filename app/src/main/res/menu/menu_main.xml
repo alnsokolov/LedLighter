@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <group app:showAsAction="always" >
+        <item
+            android:id="@+id/menu_connect"
+            android:icon="@drawable/menu_connect"
+            android:title="@string/menu_title_connect"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/menu_add"
+            android:icon="@drawable/menu_plus"
+            android:title="@string/menu_title_add"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/menu_help"
+            android:icon="@drawable/menu_help"
+            android:title="@string/menu_title_help"
+            app:showAsAction="always" />
+    </group>
+</menu>
